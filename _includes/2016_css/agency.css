@@ -20,7 +20,7 @@ html {
 body {
     position: absolute;
     margin: 0;
-    padding-bottom: 90px;
+    padding-bottom: 0px;
     min-height: 100%;
     width: 100%;
     overflow-x: hidden;
@@ -161,13 +161,13 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
     padding: 20px 40px;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 100;
 }
 
 .btn-sm {
     padding: 10px 20px;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 100;
 }
 
 .btn-sm, .btn-xl {
@@ -281,7 +281,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: black;
 }
 
 .navbar-default .nav li a:hover,
@@ -326,7 +326,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: white;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -355,10 +355,11 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: {{ site.data.template.font.primary }};
     font-size: 22px;
-    font-style: italic;
+    /*font-style: italic;*/
     line-height: 22px;
+    color:black;
 }
 
 header .intro-text .intro-heading {
@@ -366,8 +367,9 @@ header .intro-text .intro-heading {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 100;
     line-height: 40px;
+    color: black;
 }
 
 @media(min-width:768px) {    
@@ -378,19 +380,21 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: {{ site.data.template.font.secondary }};
+        font-family: {{ site.data.template.font.primary }};
         font-size: 40px;
-        font-style: italic;
+       /* font-style: italic;*/
         line-height: 40px;
+        color:black;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
-        font-weight: 700;
+        font-size: 150px;
+        font-weight: 100;
         line-height: 75px;
+        color:black;
     }
 }
 
