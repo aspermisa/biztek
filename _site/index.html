@@ -39,10 +39,20 @@
         ga('create', 'UA-xxxxxxxx-x', 'auto');
         ga('send', 'pageview');
     </script>
+
+<!-- #### VANTA JS PLUGIN ### -->
+<!-- A. vanta js assets -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+<script src="https://www.vantajs.com/dist/vanta.waves.min.js"></script>
+<!-- B. Instilize vanta js by #id selector -->
+<script> 
+   VANTA.WAVES('#vantajs')
+</script>
+
     <!--Google Analytics SCRIPT END-->
 
     <!--Remove image dragging -->
-    <BODY ondragstart="return false;" ondrop="return false;">
+    <BODY ondragstart="return false;" ondrop="return false;"> </BODY>
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="css/2016_style/font-awesome/css/font-awesome.min.css">
@@ -63,7 +73,6 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-
 
 
     <body id="page-top" class="index">
@@ -100,8 +109,8 @@
 
 
     <!-- Header -->
-    <header>
-        <div class="container">
+    <header id="vantajs">
+        <div class="container" >
             <div class="intro-text">
                 <div class="intro-heading">BizTek 2020<br></div>
                 <div class="intro-lead-in">Thursday February 13 2020</div>
@@ -111,7 +120,7 @@
         </div>
     </header>
 
- <!--        <section id="intro">
+<!--     <section id="intro">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -502,7 +511,19 @@ footer {
 <script src="css/2016_style/js/cbpAnimatedHeader.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="css/2016_style/js/agency.js"></script>
+<script src="css/2016_style/js/agency.js"></script> -->
+
+    <!-- #### VANTA JS PLUGIN ### -->
+<!-- A. vanta js assets -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+<script src="https://www.vantajs.com/dist/vanta.rings.min.js"></script>
+<!-- B. Instilize vanta js by #id selector -->
+<script> 
+   VANTA.RINGS({
+    el:"#vantajs",
+   backgroundColor: 0xffffff
+   })
+</script>
  
 
     </body>

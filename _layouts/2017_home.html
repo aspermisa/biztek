@@ -3,14 +3,13 @@
 
   {% include 2016_data/head.html %}
 
-
     <body id="page-top" class="index">
 
     {% include 2017_data/header-home.html %}
 
     <!-- Header -->
-    <header>
-        <div class="container">
+    <header id="vantajs">
+        <div class="container" >
             <div class="intro-text">
                 <div class="intro-heading">BizTek 2020<br></div>
                 <div class="intro-lead-in">Thursday February 13 2020</div>
@@ -20,14 +19,26 @@
         </div>
     </header>
 
- <!--    {% include 2017_data/intro.html %}
+<!-- {% include 2017_data/intro.html %}
     {% include 2017_data/about.html %}
     {% include 2017_data/speakers.html %}
     {% include 2017_data/sponsors.html %}
     {% include 2016_data/contact.html %}
     {% include 2016_data/footer.html %}
     {% include 2017_data/speakers_info.html %}
-    {% include 2016_data/js.html %}
+    {% include 2016_data/js.html %} -->
+
+    <!-- #### VANTA JS PLUGIN ### -->
+<!-- A. vanta js assets -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+<script src="https://www.vantajs.com/dist/vanta.rings.min.js"></script>
+<!-- B. Instilize vanta js by #id selector -->
+<script> 
+   VANTA.RINGS({
+    el:"#vantajs",
+   backgroundColor: 0xffffff
+   })
+</script>
  
 
     </body>
