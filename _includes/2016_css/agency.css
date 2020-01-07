@@ -613,7 +613,7 @@ section h3.section-subheading {
 }
 
 .timeline .timeline-heading h4 {
-    margin-top: 0;
+    /* margin-top: 0; */
     color: inherit;
 }
 
@@ -623,7 +623,7 @@ section h3.section-subheading {
 
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
 }
 
 @media(min-width:768px) {
@@ -658,7 +658,7 @@ section h3.section-subheading {
 
     .timeline>li.timeline-inverted>.timeline-panel {
         float: right;
-        padding: 0 30px 20px 20px;
+        /* padding: 0 30px 20px 20px; */
         text-align: left;
     }
 }

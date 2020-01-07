@@ -7,9 +7,8 @@
 - inverted: timeline-inverted
   img: icon-agenda.jpeg
   name: When is it?
-  info: |+
-    Thursday, February 13, 2020,
-    5:30 pm - 9:30 pm
+  info: 
+    "Thursday, February 13, 2020,\n 5:30 pm - 9:30 pm"
   # link: /agenda
 
 - inverted: 
