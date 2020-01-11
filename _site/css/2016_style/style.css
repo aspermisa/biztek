@@ -11,6 +11,22 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ .countdown {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+    text-align: center;
+    font-family: Oswald, "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+li span {
+    display: block;
+  font-size: 4.5rem;
+ }
+
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -52,7 +68,7 @@ body {
 }
 
 .text-primary {
-    color: #79C7EB;
+    color: #2e81a7;
 }
 
 p {
@@ -73,7 +89,7 @@ a.active {
 }
 
 a {
-    color: #79C7EB;
+    color: #2e81a7;
 }
 
 a:hover,
@@ -117,12 +133,12 @@ aside.clients,
 }
 
 .btn-primary {
-    border-color: #79C7EB;
+    border-color: #2e81a7;
     text-transform: uppercase;
     font-family: Oswald, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #79C7EB;
+    background-color: #2e81a7;
 }
 
 .btn-primary:hover,
@@ -130,7 +146,7 @@ aside.clients,
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #79C7EB;
+    border-color: #2e81a7;
     color: #fff;
     background-color: #6ecf99;
 }
@@ -156,18 +172,18 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #79C7EB;
-    background-color: #79C7EB;
+    border-color: #2e81a7;
+    background-color: #2e81a7;
 }
 
 .btn-primary .badge {
-    color: #79C7EB;
+    color: #2e81a7;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 100;
 }
 
@@ -179,8 +195,8 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-sm, .btn-xl {
     color: #fff;
-    background-color: #79C7EB;
-    border-color: #79C7EB;
+    background-color: #2e81a7;
+    border-color: #2e81a7;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Oswald, "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -195,7 +211,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #79C7EB;
+    border-color: #2e81a7;
     color: #fff;
     background-color: #6ecf99;
 }
@@ -238,13 +254,13 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #79C7EB;
-    background-color: #79C7EB;
+    border-color: #2e81a7;
+    background-color: #2e81a7;
 }
 
 .btn-sm .badge,
 .btn-xl .badge {
-    color: #79C7EB;
+    color: #2e81a7;
     background-color: #fff;
 }
 
@@ -255,7 +271,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #79C7EB;
+    color: #2e81a7;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -270,8 +286,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #79C7EB;
-    background-color: #79C7EB;
+    border-color: #2e81a7;
+    background-color: #2e81a7;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -280,7 +296,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #79C7EB;
+    background-color: #2e81a7;
 }
 
 .navbar-default .nav li a {
@@ -294,13 +310,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #79C7EB;
+    color: #2e81a7;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #79C7EB;
+    background-color: #2e81a7;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -393,24 +409,26 @@ header .intro-text .intro-heading {
        /* font-style: italic;*/
         line-height: 40px;
         color:white;
-        text-align: left;
-        margin-left: 75px;
+/*        text-align: left; commeted out to center text - fama
+        margin-left: 75px;*/
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Oswald, "Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 85px;
+        font-size: 150px;
         font-weight: 100;
-        line-height: 75px; /* There were problems here so i changed the numbers */
+        line-height: 40px; /* There were problems here so i changed the numbers -isham */
+        /* I changed the number back to 40 so there was less spacing (prev 75) - fama
         color:white;
-        margin-right: 300px;
+        margin-right: 0px; /* Changed to 0px so biztek2020 text is centered - fama */
     }
 }
 
 section {
-    padding: 100px 0;
+    padding-top: 50px;
+    padding-bottom: 0px;
 }
 
 aside.clients h2,
@@ -431,7 +449,8 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding-top: 100px;
+        padding-bottom: 0px;
     }
 }
 
@@ -586,7 +605,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #79C7EB;
+    background-color: #2e81a7;
 }
 
 .timeline>li .timeline-image h4 {
@@ -753,7 +772,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #79C7EB;
+    border-color: #2e81a7;
     box-shadow: none;
 }
 
@@ -835,7 +854,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #79C7EB;
+    background-color: #2e81a7;
 }
 
 .btn:focus,
@@ -917,7 +936,7 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #79C7EB;
+    background: #2e81a7;
 }
 
 ::selection {
@@ -934,6 +953,6 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #79C7EB;
+    webkit-tap-highlight-color: #2e81a7;
 }
 
