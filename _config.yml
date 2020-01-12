@@ -31,6 +31,8 @@ social:
     url: https://twitter.com/Asper_MISA
   - title: instagram
     url: https://www.instagram.com/aspermisa/
+  - title: slack
+    url:  https://aspermisa.slack.com/signup
 
 # Build settings
 markdown: kramdown
