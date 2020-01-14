@@ -356,7 +356,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-/*     height: 100vh; */ causes buy button to overflow into intro section - fama
+/*     height: 100vh; */ 
     text-align: center;
     color: #fff;
     background-attachment: scroll;
