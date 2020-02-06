@@ -123,7 +123,7 @@ aside.clients {
 
 aside.clients,
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #ffffff; /*changed to white background so sponsor logos blend in - fama*/
 }
 
 .bg-darkest-gray {
